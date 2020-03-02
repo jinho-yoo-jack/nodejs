@@ -28,3 +28,10 @@ console.log(`Sum is ${a + b} and Multiplication would be ${a * b}.`);
 #### a. 정의
 #### b. 구현
 #### c. 설명
+
+## 3. ES6 문법 정리
+### 1. Proxy
+- 정의 : Proxy 객체는 기본적인 동작(속성 접근, 할당, 순회, 열거, 함수 호출 등)의 새로운 행동을 정의 할 때 사용.
+- params : handler : trap들을 가지고 있는 Placeholder 객체
+           traps : 프로퍼티에 접근 할 수 있는 메소드. 운영체제에서 trap 이라는 컨셉과 유사
+           target : proxy가 가상화하는 실제 객체. 이것은 proxy를 위한 backend 저장소로 사용
